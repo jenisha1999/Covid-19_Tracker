@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 5px;
+} 
+ html
+{
+    width: 100%;
+    height: auto;
+}
+.mycol{
+    margin: 0px 0px 20px 20px;
+    height: 4rem;
+    text-align: center;
+}
+
+.mytabel
+{
+    margin-left: 20%;
+}
+
+#sdata
+{
+    width: 22rem;
+    padding-left: 2rem;
+    border-width: 0px;
+}
+#sdata1
+{
+    border-width: 1px; 
+}
+#sdata2
+{
+    border-width: 1px; 
+}
+#sdata3
+{
+    border-width: 1px; 
+}
+#sdata4
+{
+    border-width: 1px; 
+}
+.sdata
+{
+    border-width: 1px; 
+}
+.border
+{
+    border-width: 1px;
+}
+.textstyle{
+    font-family: 'Cormorant Unicase', serif;
+    font-size: 500%;
+    color: red;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.app{
+    text-align: center;
+}
+
+.corimg{
+    margin-top: -3%;
+    animation: gocorona 2s ease-in-out infinite;
+}
+.rot{
+    animation: start 5s linear infinite;
+}
+
+.hov1:hover{
+    transform: scale(1.08,1.03);
+}
+
+.hov2:hover{
+    transform: scale(1.08,1.03);
+}
+
+.hov3:hover{
+    transform: scale(1.08,1.03);
+}
+
+.hov4:hover{
+    transform: scale(1.08,1.03);
+}
+
+@keyframes gocorona {
+    0%{
+        transform: scale(.75);
+    }
+    20%{
+        transform: scale(1);
+    }
+    40%{
+        transform: scale(.75);
+    }
+    60%{
+        transform: scale(1);
+    }
+    80%{
+        transform: scale(.75);
+    }
+    100%{
+        transform: scale(.75);
+    }
+
+    }  
+
+    @keyframes start {
+        0%{
+            transform: scale(.75);
+        }
+        20%{
+            transform: scale(1);
+        }
+        40%{
+            transform: scale(.75);
+        }
+        60%{
+            transform: scale(1);
+        }
+        80%{
+            transform: scale(.75);
+        }
+        100%{
+            transform: scale(.75);
+        }
+    }
+
+@media  (max-width: 500px) {
+ 
+     @keyframes start { 
+         0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    } 
+ } 
+
+ .data {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      }
+      .active {
+        color: blueviolet;
+
+        font-weight: bold;
+
+      }
+      .confirmed {
+        color: crimson;
+        font-weight: bold;
+      }
+      .recod {
+        color: green;
+        font-weight: bold;
+      }
+      .died {
+        color: grey;
+        font-weight: bold;
+      }
+      .caseFigActive,
+      .caseFigConfirmed,
+      .caseFigRecod,
+      .caseFigDied {
+        font-size: 20px;
+      }
+      svg {
+        height: 650px;
+        width: 100%;
+      }
+      .india {
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 30px;
+        color: tomato;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .state-name {
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 25px;
+        color: tomato;
+        font-weight: bold;
+        margin-bottom: 50px;
+      }
